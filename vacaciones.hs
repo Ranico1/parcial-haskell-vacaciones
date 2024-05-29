@@ -141,3 +141,10 @@ convencidos conjuntoTuristas unTour = filter (analizarTour unTour)  conjuntoTuri
 
 totalEspiritualidad :: [Turista] -> Tour -> Int 
 totalEspiritualidad conjuntoTuristas unTour = (sum . map (espiritualidad unTour) )(convencidos conjuntoTuristas unTour)
+
+
+--punto 4 
+
+playasInfinitas :: Tour 
+playasInfinitas = repeat irAlaPlaya
+
